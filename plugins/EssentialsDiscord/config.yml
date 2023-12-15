@@ -12,10 +12,10 @@
 
 # The token for your bot from the Discord Developers site.
 # Please make sure to use this site to add the bot to your server as it grants special permissions you may not be familiar with: https://essentialsx.net/discord.html
-token: "INSERT-TOKEN-HERE"
+token: "ODI0ODQ0OTYzNjQwNjM5NTIw.GH9rNX.Qq_9G51U7KowU1b1ITRA2YpI3qJ3WgYhmwYcRA"
 
 # The ID of your server.
-guild: 000000000000000000
+guild: 969241414561062943
 
 # The Discord invite URL that will be shown when a player when using the /discord command or in other areas.
 discord-url: "https://discord.gg/invite-code"
@@ -38,8 +38,8 @@ discord-url: "https://discord.gg/invite-code"
 # - staff, which will send kick/mute messages
 # (note: you will need to replace the zeros with the actual channel ID you want to use)
 channels:
-  primary: 000000000000000000
-  staff: 000000000000000000
+  primary: 1088607755134308452
+  staff: 1088608019190923315
 
 # Should all players receive Discord messages from the primary channel, regardless of their permissions?
 # This is intended for use for people without permission plugins. If you have a permission plugin, please give your
@@ -62,12 +62,12 @@ chat:
   # By default, this will ignore messages starting with '!' or '?'.
   discord-filter: "^[!?]"
   # Whether or not webhook messages from Discord should be shown in Minecraft.
-  show-webhook-messages: false
+  show-webhook-messages: true
   # Whether or not bot messages from Discord should be shown in Minecraft.
-  show-bot-messages: false
+  show-bot-messages: true
   # Whether or not to show all Minecraft chat messages that are not shown to all players.
   # You shouldn't need to enable this unless you're not seeing all chat messages go through to Discord.
-  show-all-chat: false
+  show-all-chat: true
   # A list of Discord channels which should be logged to console.
   # If you want to use the channels below, remember to uncomment the line by removing the '#' before the '-'.
   relay-to-console:
@@ -80,7 +80,7 @@ console:
   # The channel ID (or webhook URL) to send the console output to.
   # If the channel ID/webhook URL is invalid or set to 'none', the console relay will be disabled.
   # Note: If you use a channel ID, the bot must have the "Manage Webhooks" permission in Discord or else the console relay will not work.
-  channel: 000000000000000000
+  channel: 1088344123674722334
   # The format of the console message. The following placeholders can be used:
   # - {timestamp}: Timestamp in HH:mm:ss format
   # - {level}: The console logging level
@@ -92,9 +92,9 @@ console:
   # Note: Enabling this means everyone who can send messages in the console channel will be able to send commands as the
   # console. It's recommended you stick to the /execute command which has role permission checks (see command configuration below).
   # Note 2: This option requires a channel ID and is not supported if you specify a webhook URL above. You'll need to use /execute in Discord if you use a webhook URL.
-  command-relay: false
+  command-relay: true
   # Set to true if bots/webhooks should be able to send commands through the command relay.
-  bot-command-relay: false
+  bot-command-relay: true
   # The maximum log level of messages to send to the console relay.
   # The following is a list of available log levels in order of highest to lowest.
   # Changing the log level will send all log levels above it to the console relay.
