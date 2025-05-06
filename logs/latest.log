@@ -1,104 +1,66 @@
-[12:01:47] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:01:53] [ServerMain/INFO]: Loaded 7 recipes
-[12:01:56] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[12:01:56] [Server thread/WARN]: ****************************
-[12:01:56] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[12:01:56] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[12:01:56] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[12:01:56] [Server thread/WARN]: ****************************
-[12:01:56] [Server thread/INFO]: Loading properties
-[12:01:56] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[12:01:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[12:01:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[12:01:59] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[12:01:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[12:02:00] [Server thread/INFO]: Default game type: SURVIVAL
-[12:02:00] [Server thread/INFO]: Generating keypair
-[12:02:00] [Server thread/INFO]: Starting Minecraft server on minecraft.mommersco.com:25565
-[12:02:00] [Server thread/INFO]: Using default channel type
-[12:02:00] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[12:02:00] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[12:02:01] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.111
-[12:02:02] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[12:02:02] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[12:02:02] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
-[12:02:02] [Server thread/INFO]: [UltimateAutoRestart] Loading server plugin UltimateAutoRestart vBuild 2023.11
-[12:02:02] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.34
-[12:02:02] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.1.225
-[12:02:02] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
-[12:02:02] [Server thread/INFO]: [EssentialsProtect] Loading server plugin EssentialsProtect v2.20.1
-[12:02:02] [Server thread/INFO]: [EssentialsDiscord] Loading server plugin EssentialsDiscord v2.20.1
-[12:02:02] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.3.92
-[12:02:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[12:02:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.111
-[12:02:05] [Server thread/INFO]:         __    
-[12:02:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.111
-[12:02:05] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[12:02:05] [Server thread/INFO]: 
-[12:02:05] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[12:02:06] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
-[12:02:06] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Starting...
-[12:02:07] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Start completed.
-[12:02:08] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
-[12:02:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[12:02:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[12:02:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 8109ms)
-[12:02:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[12:02:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[12:02:11] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[12:02:11] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[12:02:11] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[12:02:11] [Server thread/INFO]: Preparing level "world"
-[12:02:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:02:13] [Server thread/INFO]: Time elapsed: 688 ms
-[12:02:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[12:02:13] [Server thread/INFO]: Time elapsed: 64 ms
-[12:02:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[12:02:13] [Server thread/INFO]: Time elapsed: 38 ms
-[12:02:13] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[12:02:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[12:02:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[12:02:16] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[12:02:16] [Server thread/INFO]: [Essentials] Using locale en_AU
-[12:02:16] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[12:02:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[12:02:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[12:02:17] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[12:02:17] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
-[12:02:17] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[12:02:17] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 2023.11
-[12:02:17] [Server thread/INFO]: [UltimateAutoRestart] Build 2023.11, a free resource by Norska - Thanks for downloading!
-[12:02:17] [Server thread/INFO]: [UltimateAutoRestart] Join www.norska.dev/discord/ for support!
-[12:02:17] [Server thread/INFO]: [UltimateAutoRestart] Attempting hooks...
-[12:02:17] [Server thread/INFO]: [spark] Enabling spark v1.10.34
-[12:02:19] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[12:02:19] [Server thread/INFO]: [spark] Starting background profiler...
-[12:02:19] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windowsserver2022/amd64), so the built-in Java engine will be used instead.
-[12:02:19] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.225
-[12:02:23] [Server thread/INFO]: [mcMMO] Killing orphans
-[12:02:24] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
-[12:02:24] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[12:02:24] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.20.1
-[12:02:24] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
-[12:02:24] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
-[12:02:24] [Server thread/INFO]: [EssentialsDiscord] Enabling EssentialsDiscord v2.20.1
-[12:02:25] [Server thread/INFO]: [EssentialsDiscord] Starting Metrics. Opt-out using the global bStats config.
-[12:02:25] [Server thread/INFO]: [EssentialsDiscord] Attempting to login to Discord...
-[12:02:29] [Server thread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Login Successful!
-[12:02:29] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[12:02:30] [JDA MainWS-ReadThread/INFO]: [net.essentialsx.dep.net.dv8tion.jda.api.JDA] Finished Loading!
-[12:02:30] [Server thread/INFO]: [EssentialsDiscord] Successfully logged in as Astrix's World#2607
-[12:02:31] [Server thread/INFO]: [Chunky] Enabling Chunky v1.3.92
-[12:02:31] [Server thread/INFO]: Running delayed init tasks
-[12:02:31] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[12:02:32] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
-[12:02:32] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] Checking for Updates ... 
-[12:02:32] [Server thread/INFO]: [Chunky] No tasks to continue.
-[12:02:32] [Server thread/INFO]: Done (35.732s)! For help, type "help"
-[12:02:32] [Server thread/INFO]: Timings Reset
-[12:02:32] [Craft Scheduler Thread - 11 - Vault/INFO]: [Vault] No new version available
-[12:02:36] [Server thread/INFO]: [UltimateAutoRestart] Did not find any plugins to hook into!
-[18:02:31] [Craft Scheduler Thread - 1473 - Vault/INFO]: [Vault] Checking for Updates ... 
-[18:02:31] [Craft Scheduler Thread - 1473 - Vault/INFO]: [Vault] No new version available
+[10:34:18] [ServerMain/INFO]: [bootstrap] Running Java 24 (Java HotSpot(TM) 64-Bit Server VM 24.0.1+9-30; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[10:34:18] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) for Minecraft 1.21.4
+[10:34:18] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:34:18] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[10:34:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:34:21] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[10:34:21] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[10:34:22] [ServerMain/INFO]: No existing world data, creating new world
+[10:34:22] [ServerMain/INFO]: Loaded 1370 recipes
+[10:34:22] [ServerMain/INFO]: Loaded 1481 advancements
+[10:34:22] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[10:34:22] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 170.5ms
+[10:34:22] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[10:34:22] [Server thread/INFO]: Loading properties
+[10:34:22] [Server thread/INFO]: This server is running Paper version 1.21.4-227-ver/1.21.4@7675321 (2025-04-28T19:07:04Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[10:34:22] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:34:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:34:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:34:23] [Server thread/INFO]: [MoonriseCommon] Paper is using 5 worker threads, 1 I/O threads
+[10:34:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[10:34:23] [Server thread/INFO]: Default game type: SURVIVAL
+[10:34:23] [Server thread/INFO]: Generating keypair
+[10:34:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:34:23] [Server thread/INFO]: Using default channel type
+[10:34:23] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[10:34:23] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[10:34:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:34:23] [Server thread/INFO]: Preparing level "world"
+[10:34:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:34:24] [Server thread/INFO]: Preparing spawn area: 2%
+[10:34:25] [Server thread/INFO]: Preparing spawn area: 57%
+[10:34:26] [Server thread/INFO]: Preparing spawn area: 65%
+[10:34:26] [Server thread/INFO]: Time elapsed: 1256 ms
+[10:34:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:34:26] [Server thread/INFO]: Preparing spawn area: 2%
+[10:34:26] [Server thread/INFO]: Time elapsed: 388 ms
+[10:34:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:34:26] [Server thread/INFO]: Preparing spawn area: 2%
+[10:34:26] [Server thread/INFO]: Time elapsed: 88 ms
+[10:34:26] [Server thread/INFO]: [spark] Starting background profiler...
+[10:34:26] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[10:34:26] [Server thread/INFO]: Done preparing level "world" (3.065s)
+[10:34:26] [Server thread/INFO]: Running delayed init tasks
+[10:34:26] [Server thread/INFO]: Done (9.372s)! For help, type "help"
+[11:08:04] [User Authenticator #0/INFO]: UUID of player Black_Ice_Knight is 173c40a0-4542-46e2-a61a-5be4c9f68d6f
+[11:08:05] [Server thread/INFO]: Black_Ice_Knight joined the game
+[11:08:05] [Server thread/INFO]: Black_Ice_Knight[/127.0.0.1:54720] logged in with entity id 46 at ([world]15.5, 69.0, 60.5)
+[11:08:32] [Server thread/INFO]: Set the time to 1000
+[11:10:33] [Server thread/INFO]: Made Black_Ice_Knight a server operator
+[11:10:37] [Server thread/INFO]: Black_Ice_Knight issued server command: /gm c
+[11:10:40] [Server thread/INFO]: Black_Ice_Knight issued server command: /gamemode creative
+[11:10:40] [Server thread/INFO]: [Black_Ice_Knight: Set own game mode to Creative Mode]
+[11:11:23] [Server thread/INFO]: Black_Ice_Knight issued server command: /setworldspawn
+[11:11:23] [Server thread/INFO]: [Black_Ice_Knight: Set the world spawn point to 145, 127, 112 [0.0]]
+[11:11:45] [Server thread/INFO]: Black_Ice_Knight issued server command: /gamerule logAdminCommands true
+[11:11:45] [Server thread/INFO]: [Black_Ice_Knight: Gamerule logAdminCommands is now set to: true]
+[11:12:19] [Server thread/INFO]: Black_Ice_Knight issued server command: /gamemode survival
+[11:12:19] [Server thread/INFO]: [Black_Ice_Knight: Set own game mode to Survival Mode]
+[11:12:21] [Server thread/INFO]: Black_Ice_Knight issued server command: /kill
+[11:12:21] [Server thread/INFO]: Black_Ice_Knight was killed
+[11:12:21] [Server thread/INFO]: [Black_Ice_Knight: Killed Black_Ice_Knight]
+[11:21:55] [Server thread/INFO]: Black_Ice_Knight was slain by Zombie
+[11:25:08] [Server thread/INFO]: Black_Ice_Knight issued server command: /time set day
+[11:25:08] [Server thread/INFO]: [Black_Ice_Knight: Set the time to 1000]
+[11:26:49] [Server thread/INFO]: Black_Ice_Knight lost connection: Disconnected
+[11:26:49] [Server thread/INFO]: Black_Ice_Knight left the game
